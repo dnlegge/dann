@@ -1,5 +1,7 @@
 package com.dnlegge.dann;
 
+import com.dnlegge.dann.impl.dannImpl;
+
 public class
         AntNeural {
     /*
@@ -9,14 +11,14 @@ public class
 
     */
     private double rewardArray[][] = new double[1][1];
-    private dann nnet;
+    private dannImpl nnet;
     private int[] tally = new int[3];
 
     // Constructor calls
     public AntNeural() {
         // this sets the default NN-topolgy - overridden by weights.in
         int layerArray[] = {7, 3, 1};
-        nnet = new dann(layerArray);
+        nnet = new dannImpl(layerArray);
         nnet.setLearning(true);
         nnet.setLearningRate(0.1);
         nnet.setMomentum(0.0);
