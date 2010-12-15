@@ -1,9 +1,6 @@
-//package uk.co.dnlegge ;
+package com.dnlegge.dann;
 
-import java.io.*;
-import java.util.*;
-
-public class AntNeural 
+public class AntNeural
 {
 /* 
 David's AntNeural Class:
@@ -12,7 +9,7 @@ David's AntNeural Class:
 
 */
 private double rewardArray[][] = new double[1][1] ;
-private dann nnet ;
+private com.dnlegge.dann.dann nnet ;
 private int[] tally = new int[3] ;
 
 // Constructor calls

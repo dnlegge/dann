@@ -1,11 +1,7 @@
-//package uk.co.dnlegge ;
+package com.dnlegge.dann;
 
-import java.io.*;
-import java.util.*;
-import java.lang.Math.*;
-
-
-public class dann 
+public class
+        dann
 {
 /**   David's Artificial Neural Network - dann class contains the following methods:
 	public:
